@@ -1,6 +1,6 @@
 # Gruvbox theme for Windows Terminal
 
-####Moved From [here](https://github.com/ZeusOfTheCrows/gruvbox-windows-terminal)
+#### Moved From [here](https://github.com/ZeusOfTheCrows/gruvbox-windows-terminal)
 
 A collection of [gruvbox](https://github.com/gruvbox-community/gruvbox) themes for windows terminal, originally by [russdb](https://github.com/russdb/gruvbox-windows-terminal)
 
