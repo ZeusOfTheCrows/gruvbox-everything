@@ -1,0 +1,45 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
+@import url(https://code.cdn.mozilla.net/fonts/fira.css);
+/*ztodo download and import these properly*/
+
+:root {
+	--bg0: #282828;
+	--bg1: #3C3836;
+	--bg2: #504945;
+	--bg3: #665C54;
+	--bg4: #7C6F64;
+	--bg5: #928374;
+	--fg4: #A89984;
+	--fg3: #BDAE93;
+	--fg2: #D5C4A1;
+	--fg1: #EBDBB2;
+	--fg0: #FBF1C7;
+	--dulled-red: #CC241D;
+	--strong-red: #FB4943;
+	--dulled-grn: #98971A;
+	--strong-grn: #B8BB26;
+	--dulled-ylw: #D79921;
+	--strong-ylw: #FABD2F;
+	--dulled-blu: #458588;
+	--strong-blu: #83A598;
+	--dulled-ppl: #B16286;
+	--strong-ppl: #D3869B;
+	--dulled-aqa: #689D6A;
+	--strong-aqa: #8EC07C;
+	--dulled-org: #D65D0E;
+	--strong-org: #FE8019;
+	
+	--outlines: var(--dulled-org); /*lines below headers, around code blocks, around image data*/
+	--ol-radius: 6px; /*outline radius, used for same things as above*/
+	--shad-colr: 0 1px 1px 0 #0007; /*should be black with variable alpha, really*/
+	
+	--code-font: "Fira Code";
+	--main-font: "Fira Sans";
+		
+	--side-bar-bg-color: var(--bg2);
+	--control-text-color: --(fg1);
+}
+/* fonts
+fira sans (main) https://fonts.google.com/specimen/Fira+Sans
+fira code (code)
+*/
