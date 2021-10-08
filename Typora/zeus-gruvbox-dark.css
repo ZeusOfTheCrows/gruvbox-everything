@@ -1,1 +1,449 @@
-C:/Users/zeuso/AppData/Roaming/Typora/themes/zeus-gruvbox-dark.css
+/*--------------------------------------\
+|  Created by ZeusOfTheCrows,           |
+|     Based on the default theme Pixyll |
+|   https://zeusofthecrows.github.io/   |
+\--------------------------------------*/
+
+@import "zeus-gruvbox/vars-dark.css"; /* mostly colour scheme, but also fonts and some numbers/*
+
+/* @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext); */
+
+/* open-sans-regular - latin-ext_latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Open Sans Regular'), local('OpenSans-Regular'), url('./github/open-sans-v17-latin-ext_latin-regular.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* open-sans-italic - latin-ext_latin */
+  @font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Open Sans Italic'), local('OpenSans-Italic'), url('./github/open-sans-v17-latin-ext_latin-italic.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* open-sans-700 - latin-ext_latin */
+  @font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url('./github/open-sans-v17-latin-ext_latin-700.woff2') format('woff2'); 
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* open-sans-700italic - latin-ext_latin */
+  @font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: bold;
+	src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('./github/open-sans-v17-latin-ext_latin-700italic.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+html {
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body { /*main styles, overwritten for specific things*/
+	font-family: var(--main-font), "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+	background-color: var(--bg0);
+	color: var(--fg1);
+	line-height: 1.5;
+}
+
+#write {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 30px;
+	padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child, #write > ol:first-child{ /*add margin before lists*/
+	margin-top: 30px;
+}
+
+a { /*should colour links blue ztodo not working*/
+	color: var(--strong-blue);
+}
+h1, h2, h3, h4, h5, h6 {
+	color: var(--fg0); /*change header colours to emph text colour*/
+	position: relative;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	line-height: 1.4;
+	cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+	text-decoration: none; /*ztodo i don't really want this to work, but why doesn't it?*/
+}
+h1 tt,
+h1 code {
+	font-size: inherit;
+}
+h2 tt,
+h2 code {
+	font-size: inherit;
+}
+h3 tt,
+h3 code {
+	font-size: inherit;
+}
+h4 tt,
+h4 code {
+	font-size: inherit;
+}
+h5 tt,
+h5 code {
+	font-size: inherit;
+}
+h6 tt,
+h6 code {
+	font-size: inherit;
+}
+h1 {
+	font-size: 2.25em;
+	line-height: 1.2;
+	border-bottom: 1px solid var(--outlines); /*add dimmed line below headers*/
+}
+h2 {
+	font-size: 1.75em;
+	line-height: 1.225;
+	border-bottom: 1px solid var(--outlines); /*add dimmed line below headers*/
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1.43;
+}
+h4 {
+	font-size: 1.25em;
+}
+h5 {
+	font-size: 1em;
+	color: var(--fg1);
+}
+h6 {
+   font-size: 1em;
+	color: var(--fg2);
+}
+
+p, blockquote, ul, ol, dl, table{
+	margin: 0.8em 0;
+}
+li>ol, li>ul {
+	margin: 0 0; /*remove margin from list elements?*/
+}
+hr {
+	height: 2px;
+	padding: 0;
+	margin: 16px 0;
+	background-color: var(--dulled-ylw); /*horiz line*/
+	border: 0 none;
+	overflow: hidden;
+	box-sizing: content-box;
+}
+
+li p.first {
+	display: inline-block;
+}
+ul,
+ol {
+	padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+	margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+	margin-bottom: 0;
+}
+blockquote {
+	border-left: 4px solid var(--dulled-aqa); /*quote left bar*/
+	padding: 0 15px;
+	color: var(--fg3);
+}
+blockquote blockquote {
+	padding-right: 0;
+}
+table {
+	padding: 0;
+	word-break: initial;
+}
+
+table thead{
+	border-bottom: var(--dulled-ppl); /*ztodo this not here*/
+}
+
+table tr {
+	/* border: 1px solid var(--bg5); */
+	margin: 0;
+	padding: 0;
+}
+table tr:nth-child(odd) { /* ztodo this selector works properly for md tables, not html ones*/
+	background-color: var(--bg1); /*alternate table row background colour*/
+}
+table tr:nth-child(even), thead, th {
+	background-color: var(--bg2); /*alternate table row background colour*/
+}
+table th {
+	font-weight: bold;
+	/* border: 1px solid #dfe2e5; /* no borders for that modern sleekness*/
+	border-bottom: 0px;
+	margin: 0;
+	padding: 6px 13px;
+}
+table td {
+	/* border: 1px solid #dfe2e5; */
+	margin: 0;
+	padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+	margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+	margin-bottom: 0;
+}
+
+.CodeMirror-lines { /*ztodo why is this not in the codemirror file*/
+	padding-left: 4px;
+}
+
+.code-tooltip { /*dropdown below font block, for selecting language*/
+	background-color: var(--bg2);
+	border-radius: var(--ol-radius);
+	box-shadow: var(--shad-type); /*maybe?*/
+	border-top: 1px solid var(--strong-ppl); /*line above dropdown */
+}
+
+.md-meta { /*i added this here, maybe it should be higher?*/
+	color: var(--fg3);
+}
+
+.md-fences, code, tt {
+	border: 1px solid var(--outlines); /*ztodo*/
+	background-color: var(--dulled-ylw); /*ztodo i don't know why this doesn't take effect*/
+	border-radius: var(--ol-radius);
+	padding: 0;
+	padding: 2px 4px 0px 4px;
+	/* font-size: 0.9em; */ /*why should code be smaller? it's cool*/
+}
+
+code {
+	background-color: var(--bg1); /*ztodo*/
+	font-family: var(--code-font);
+	padding: 0 2px 0 2px;
+}
+
+mark { /*==highlighted== text*/
+    background-color: var(--strong-ylw);
+    border-radius: calc(var(--ol-radius)/2);
+    color: var(--bg0);
+	 font-weight: bold;
+    /* line-height: 2; */
+    padding: 0.1em 0.2em;
+    white-space: nowrap;
+}
+
+.md-fences {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+} /*ztodo three md-fences blocks? -- see 280*/
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+	html {
+		font-size: 13px;
+	}
+	table,
+	pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+
+.md-fences {
+	background-color: var(--bg0); /*ztodo this should also be in codemirror file?*/
+}
+#write pre.md-meta-block {  /*where is this used*/
+	padding: 1rem;
+	/* font-size: 85%; */
+	line-height: 1.45;
+	background-color: var(--bg0);
+	border: 0;
+	border-radius: var(--ol-radius);
+	color: var(--fg4);
+	margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline { /* ztodo where is this used?*/
+	background: #ff00ff;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+	border: 1px solid var(--outlines); /*border of ![inline](image) text*/
+	border-radius: var(--ol-radius);
+	padding: 2px 0px 0px 4px;
+	font-size: 0.9em;
+	color: var(--fg3);
+}
+
+/*ztodo <mark>highlight</mark>*/
+.md-tag {
+	color: #a7a7a7; /*ztodo*/
+	opacity: 1;
+}
+
+.md-toc { 
+	margin-top:20px;
+	padding-bottom:20px;
+}
+
+.sidebar-tabs {
+	border-bottom: none;
+}
+
+#typora-quick-open { /*quick open dialogue ([Ctrl]+[P])*/
+	/* border: 1px solid var(--outlines); /*too many borders on things, lets have fewer*/
+	border: 0px;
+	box-shadow: var(--shad-type);
+	border-radius: var(--ol-radius);
+	background-color: var(--bg1);
+	color: var(--fg3);
+}
+.input {
+	background-color: var(--bg2);
+	/* border-radius: var(--ol-radius); */
+	color: var(--fg2); /*this doesn't work -- i think it's a bug, as no other theme changes it?*/
+}
+.ty-quick-open-category-title {
+	color: var(--fg2);
+}
+.typora-quick-open-item {
+	/* background-color: var(--bg3); */
+	/* border-color: var(--outlines); */
+	/* border-style: solid; */
+	/* border-width: 1px; */
+}
+.typora-quick-open-item.active {
+	background-color: var(--bg0);
+	/* border-color: var(--outlines); */
+	border-radius: var(--ol-radius);
+	color: var(--fg1);
+	/* border-style: solid; */
+	/* border-width: 1px; */
+}
+
+/** ====================== focus mode ===========================*/
+.on-focus-mode blockquote {
+	border-left-color: var(--fg4);
+}
+.on-focus-mode body {
+	
+}
+
+header, .context-menu, .megamenu-content, footer{
+	font-family: var(--main-font), "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+	visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+	background-color: #fafafa;
+	background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+	color: #b4654d;
+}
+
+/*.html-for-mac {
+	--item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+	border: 0;
+}
+
+.dropdown-menu .divider {
+	border-color: #e5e5e5;
+	opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+	background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+	color: white;
+	background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+	background-color: #f5f8fa;
+	background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+/* a { */
+	/* color: var(--strong-blu); */
+/* } */
+
+.md-link {
+	color: var(--strong-blu);
+}
+.md-url {
+	color: var(--dulled-blu);
+}
