@@ -37,7 +37,7 @@
 	--main-font: "Fira Sans";
 		
 	--side-bar-bg-color: var(--bg2);
-	--control-text-color: --(fg1);
+	--control-text-color: var(--fg1);
 }
 /* fonts
 fira sans (main) https://fonts.google.com/specimen/Fira+Sans

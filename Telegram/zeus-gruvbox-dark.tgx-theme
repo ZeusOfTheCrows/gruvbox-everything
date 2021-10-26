@@ -1,0 +1,41 @@
+!
+name: "zeus-gruvbox-dark"
+time: 1635258119
+author: "ZeusOfTheCrows"
+@
+bubbleCorner, bubbleDateCorner, dateCorner, imageCorner: 8
+bubbleCornerMerged: 4
+bubbleOutline, bubbleUnreadShadow, wallpaperOverrideTime: 1
+lightStatusBar: 0
+parentTheme: 2
+#
+attachContact, avatarBlue_big, file, inputActive, notificationLink: #458588
+attachFile, avatarYellow_big, bubble_buttonRipple, bubble_buttonRipple_noWallpaper, bubbleOut_chatVerticalLine, fileAttach, fileYellow, inlineOutline, iv_blockQuoteLine, messageSwipeBackground, messageVerticalLine: #D79921
+attachInlineBot, avatarCyan_big, background_icon, bubble_mediaOverlayText, bubble_overlayText_noWallpaper, bubbleIn_time, bubbleOut_time: #689D6A
+attachLocation, avatarRed_big, fileRed, fillingNegative, headerRemoveBackground, inputNegative, togglerNegativeBackground: #CC241D
+attachPhoto, avatarGreen_big, bubbleOut_chatCorrectFilling, fileGreen, fillingPositive, inputPositive, messageAuthorPsa, messageCorrectFilling, togglerActiveBackground, togglerPositiveBackground: #98971A
+attachText, avatar_content, badgeFailedText, badgeMutedText, badgeText, black, bubble_mediaReply, bubble_mediaReply_noWallpaper, bubbleOut_chatCorrectChosenFillingContent, bubbleOut_chatCorrectFillingContent, bubbleOut_chatNegativeFillingContent, bubbleOut_chatNeutralFillingContent, chatBackground, chatKeyboard, checkContent, circleButtonActiveIcon, circleButtonNegativeIcon, circleButtonNewChannelIcon, circleButtonNewChatIcon, circleButtonNewGroupIcon, circleButtonNewSecretIcon, circleButtonPositiveIcon, controlContent, filling, fillingPositiveContent, headerBarCallMuted, inlineContentActive, iv_chatLinkBackground, messageCorrectChosenFillingContent, messageCorrectFillingContent, messageNegativeLineContent, messageNeutralFillingContent, messageSwipeContent, notification, notificationPlayer, passcode, promoContent, statusBar, statusBarLegacy, togglerNegativeContent, togglerPositiveContent: #282828
+avatarArchive, avatarYellow, bubble_buttonText, bubble_buttonText_noWallpaper, bubbleOut_inlineIcon, bubbleOut_inlineOutline, bubbleOut_inlineText, circleButtonNewChannel, confettiYellow, headerTabActive, inlineIcon, inlineText, introSectionActive, iv_pageTitle, ledYellow, nameYellow, profileSectionActive, textSearchQueryHighlight: #FABD2F
+avatarArchivePinned, avatarInactive, background_textLight, badgeMuted, controlInactive, inputInactive, introSection, iv_separator, iv_textReferenceOutlinePressed, nameInactive, togglerInactive, tooltip_outline: #A89984
+avatarBlue, avatarReplies, avatarReplies_big, avatarSavedMessages, avatarSavedMessages_big, badge, bubbleIn_textLink, bubbleOut_textLink, caption_textLink, chatListVerify, chatSendButton, confettiBlue, iv_textLink, ledBlue, nameBlue, promo, textLink, tooltip_textLink: #83A598
+avatarCyan, bubbleOut_ticks, chatListIcon, circleButtonActive, circleButtonRegularIcon, circleButtonThemeIcon, confettiCyan, headerButtonIcon, icon, iconActive, iv_textMarkedLink, ledCyan, nameCyan, progress, sliderActive, ticks: #8EC07C
+avatarGreen, bubble_mediaTimeText, bubble_mediaTimeText_noWallpaper, bubbleOut_chatCorrectChosenFilling, bubbleOut_messageAuthorPsa, bubbleOut_ticksRead, chatListAction, checkActive, circleButtonNewSecret, circleButtonPositive, confettiGreen, controlActive, iconPositive, ledGreen, messageCorrectChosenFilling, nameGreen, notificationSecure, online, passcodeIcon, snackbarUpdateAction, textSecure, ticksRead, togglerActive, togglerPositive: #B8BB26
+avatarInactive_big, iv_textReferenceOutline: #928374
+avatarOrange, bubble_dateText, bubble_dateText_noWallpaper, chatListMute, circleButtonChatIcon, circleButtonNewGroup, iv_pageSubtitle, iv_pullQuote, ledOrange, nameOrange, sectionedScrollBarActiveContent: #FE8019
+avatarOrange_big, iv_textMarkedBackground, sectionedScrollBarActive: #D65D0E
+avatarPink, avatarViolet, bubble_unreadText, bubble_unreadText_noWallpaper, bubbleOut_waveformActive, confettiPurple, iv_textReference, ledPink, namePink, nameViolet, playerButtonActive, seekDone, unreadText, videoSliderActive, waveformActive: #D3869B
+avatarPink_big, avatarViolet_big, iconLight, iv_textReferenceBackground, seekReady, videoSliderInactive: #B16286
+avatarRed, badgeFailed, bubbleOut_chatNegativeFilling, circleButtonNegative, circleButtonNewChat, circleButtonOverlayIcon, confettiRed, headerRemoveBackgroundHighlight, iconNegative, ledRed, messageNegativeLine, nameRed, textNegative, togglerNegative: #FB4934
+background, bubble_mediaOverlay, bubble_mediaTime, bubble_mediaTime_noWallpaper, bubble_overlay_noWallpaper, bubble_unread, bubble_unread_noWallpaper, bubbleIn_background, bubbleOut_file, circleButtonChat, circleButtonOverlay, circleButtonRegular, circleButtonTheme, fillingPressed, headerBackground, iv_icon, ivHeader, overlayFilling, placeholder, playerCoverPlaceholder, sectionedScrollBar, snackbarUpdate, tooltip, unread: #3C3836
+background_text, bubbleOut_messageAuthor, iv_blockQuote, playerCoverIcon: #D5C4A1
+bubble_button, bubble_button_noWallpaper, bubble_date, bubble_date_noWallpaper, bubble_messageCheckOutline, bubble_messageCheckOutlineNoWallpaper, bubble_messageSelection, bubble_messageSelectionNoWallpaper, bubble_overlay, bubbleIn_textLinkPressHighlight, bubbleOut_background, caption_textLinkPressHighlight, chatKeyboardButton, headerBarCallActive, headerButton, iv_textCodeBackgroundPressed, iv_textLinkPressHighlight, iv_textMarkedLinkPressHighlight, iv_textReferenceBackgroundPressed, messageSelection, seekEmpty, textLinkPressHighlight, textSelectionHighlight, tooltip_textLinkPressHighlight: #504945
+bubble_chatSeparator, bubbleIn_outline, bubbleIn_pressed, bubbleIn_separator, bubbleOut_outline, bubbleOut_pressed, bubbleOut_separator, chatSeparator, previewBackground, separator, shareSeparator: #0000
+bubble_mediaReplyText, bubble_mediaReplyText_noWallpaper, bubble_overlayText, bubbleIn_progress, bubbleIn_text, bubbleOut_progress, iv_text, iv_textCode, passcodeText, playerButton, statusBarContent, statusBarLegacyContent, text, tooltip_text: #EBDBB2
+bubbleOut_text: #EBDBBB
+bubbleOut_textLinkPressHighlight, headerLightBackground: #665C54
+bubbleOut_waveformInactive, headerBarCallIncoming, sliderInactive, togglerInactiveBackground, waveformInactive: #7C6F64
+headerIcon, headerLightIcon, headerLightText, headerTabActiveText, headerText, iv_header, iv_textMarked, ivHeaderIcon, ledWhite, snackbarUpdateText, textNeutral, white: #FBF1C7
+headerPlaceholder, headerTabInactiveText, iv_caption, iv_pageAuthor, iv_pageFooter, messageAuthor, textLight, textPlaceholder: #BDAE93
+iv_preBlockBackground, iv_textCodeBackground: #3C3638
+ledPurple: #D086D3
+profileSectionActiveContent: #FBF1C6
